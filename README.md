@@ -8,17 +8,23 @@ To write a program to implement the the Logistic Regression Model to Predict the
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Import the standard libraries such as pandas module to read the corresponding csv file.
+2. Upload the dataset values and check for any null or duplicated values using .isnull() and .duplicated() function respectively.
+3. Import LabelEncoder and encode the corresponding dataset values.
+4. Import LogisticRegression from sklearn and apply the model on the dataset using train and test values of x and y and Predict the values of array using the variable y_pred.
+5. Calculate the accuracy, confusion and the classification report by importing the required modules such as accuracy_score, confusion_matrix and the classification_report from sklearn.metrics module.
+6. Apply new unknown values and print all the acqirred values for accuracy, confusion and the classification report
+ 
+ 
+
 
 ## Program:
 ```
-
+/*
 Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
-Developed by: Sarankumar J
-RegisterNumber: 212221230087
+Developed by: SANJAY S
+RegisterNumber: 22007761
+*/
 
 import pandas as pd
 data = pd.read_csv("Placement_Data.csv")
@@ -63,7 +69,29 @@ lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85]])
 ```
 
 ## Output:
-![the Logistic Regression Model to Predict the Placement Status of Student](sam.png)
+
+![ml4op1](https://user-images.githubusercontent.com/115128955/201033680-901c5fea-ac2c-4fd7-a5b0-8ded891007e8.png)
+
+![ml4op2](https://user-images.githubusercontent.com/115128955/201033752-94a28b73-705c-49a4-af31-7157792ddb23.png)
+
+![ml4op3](https://user-images.githubusercontent.com/115128955/201033787-b86388a6-46ed-4532-9dba-c0223a24ffbd.png)
+
+![ml4op4](https://user-images.githubusercontent.com/115128955/201033820-211192d0-a62d-43fd-aa31-19b829fcf85a.png)
+
+![ml4op5](https://user-images.githubusercontent.com/115128955/201033860-518e2e07-3b3c-42d4-a695-01fc845cddab.png)
+
+![ml4op6](https://user-images.githubusercontent.com/115128955/201033889-170efe41-78af-445c-acac-adb6e8716e03.png)
+
+![ml4op7](https://user-images.githubusercontent.com/115128955/201033955-78849905-48be-4630-99d2-6c4689a8831a.png)
+
+![ml4op8](https://user-images.githubusercontent.com/115128955/201034030-d4e74e97-ffe8-4c18-82dc-c5f4fd85a93d.png)
+
+![ml4op9](https://user-images.githubusercontent.com/115128955/201034067-478095d9-8889-4116-8317-c887b7d36784.png)
+
+![ml4op10](https://user-images.githubusercontent.com/115128955/201034154-198c277c-2423-4cde-9b6f-14a10e2bacab.png)
+
+![ml4op11](https://user-images.githubusercontent.com/115128955/201034208-5f9446af-b324-4647-82f1-1ef1e1a5660a.png)
+
 
 
 ## Result:
