@@ -16,14 +16,12 @@ To write a program to implement the the Logistic Regression Model to Predict the
 6. Apply new unknown values and print all the acqirred values for accuracy, confusion and the classification report
  
  
-
-
 ## Program:
 ```
 /*
 Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
 Developed by: SANJAY S
-RegisterNumber: 22007761
+RegisterNumber: 212221243002
 */
 
 import pandas as pd
